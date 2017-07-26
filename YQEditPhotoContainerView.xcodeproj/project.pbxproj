@@ -1,0 +1,575 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE8C25D61F28719E00BCA4C9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DE8C25D51F28719E00BCA4C9 /* main.m */; };
+		DE8C25D91F28719E00BCA4C9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DE8C25D81F28719E00BCA4C9 /* AppDelegate.m */; };
+		DE8C25E11F28719E00BCA4C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE8C25E01F28719E00BCA4C9 /* Assets.xcassets */; };
+		DE8C25E41F28719E00BCA4C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE8C25E21F28719E00BCA4C9 /* LaunchScreen.storyboard */; };
+		DE8C25EF1F28719E00BCA4C9 /* YQEditPhotoContainerViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE8C25EE1F28719E00BCA4C9 /* YQEditPhotoContainerViewTests.m */; };
+		DE8C25FA1F28719E00BCA4C9 /* YQEditPhotoContainerViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE8C25F91F28719E00BCA4C9 /* YQEditPhotoContainerViewUITests.m */; };
+		DE8C262F1F28725500BCA4C9 /* YQEditPhotoContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = DE8C26261F28725500BCA4C9 /* YQEditPhotoContainerView.m */; };
+		DE8C26321F28729D00BCA4C9 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE8C26311F28729D00BCA4C9 /* TableViewController.m */; };
+		DE8C26351F28742C00BCA4C9 /* NORMAL.m in Sources */ = {isa = PBXBuildFile; fileRef = DE8C26341F28742C00BCA4C9 /* NORMAL.m */; };
+		DE8C263B1F28747500BCA4C9 /* YES_3_9.m in Sources */ = {isa = PBXBuildFile; fileRef = DE8C263A1F28747500BCA4C9 /* YES_3_9.m */; };
+		DE8C263E1F28748700BCA4C9 /* NO_5_10.m in Sources */ = {isa = PBXBuildFile; fileRef = DE8C263D1F28748700BCA4C9 /* NO_5_10.m */; };
+		DE8C26421F2874DF00BCA4C9 /* YQPhotoPickerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DE8C26411F2874DF00BCA4C9 /* YQPhotoPickerManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DE8C25EB1F28719E00BCA4C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE8C25C91F28719D00BCA4C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE8C25D01F28719D00BCA4C9;
+			remoteInfo = YQEditPhotoContainerView;
+		};
+		DE8C25F61F28719E00BCA4C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE8C25C91F28719D00BCA4C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE8C25D01F28719D00BCA4C9;
+			remoteInfo = YQEditPhotoContainerView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DE8C25D11F28719D00BCA4C9 /* YQEditPhotoContainerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YQEditPhotoContainerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE8C25D51F28719E00BCA4C9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DE8C25D71F28719E00BCA4C9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DE8C25D81F28719E00BCA4C9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DE8C25E01F28719E00BCA4C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DE8C25E31F28719E00BCA4C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DE8C25E51F28719E00BCA4C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE8C25EA1F28719E00BCA4C9 /* YQEditPhotoContainerViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YQEditPhotoContainerViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE8C25EE1F28719E00BCA4C9 /* YQEditPhotoContainerViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQEditPhotoContainerViewTests.m; sourceTree = "<group>"; };
+		DE8C25F01F28719E00BCA4C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE8C25F51F28719E00BCA4C9 /* YQEditPhotoContainerViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YQEditPhotoContainerViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE8C25F91F28719E00BCA4C9 /* YQEditPhotoContainerViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQEditPhotoContainerViewUITests.m; sourceTree = "<group>"; };
+		DE8C25FB1F28719E00BCA4C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE8C26251F28725500BCA4C9 /* YQEditPhotoContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQEditPhotoContainerView.h; sourceTree = "<group>"; };
+		DE8C26261F28725500BCA4C9 /* YQEditPhotoContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQEditPhotoContainerView.m; sourceTree = "<group>"; };
+		DE8C26301F28729D00BCA4C9 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		DE8C26311F28729D00BCA4C9 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		DE8C26331F28742C00BCA4C9 /* NORMAL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NORMAL.h; sourceTree = "<group>"; };
+		DE8C26341F28742C00BCA4C9 /* NORMAL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NORMAL.m; sourceTree = "<group>"; };
+		DE8C26391F28747500BCA4C9 /* YES_3_9.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YES_3_9.h; sourceTree = "<group>"; };
+		DE8C263A1F28747500BCA4C9 /* YES_3_9.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YES_3_9.m; sourceTree = "<group>"; };
+		DE8C263C1F28748700BCA4C9 /* NO_5_10.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NO_5_10.h; sourceTree = "<group>"; };
+		DE8C263D1F28748700BCA4C9 /* NO_5_10.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NO_5_10.m; sourceTree = "<group>"; };
+		DE8C26401F2874DF00BCA4C9 /* YQPhotoPickerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQPhotoPickerManager.h; sourceTree = "<group>"; };
+		DE8C26411F2874DF00BCA4C9 /* YQPhotoPickerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQPhotoPickerManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE8C25CE1F28719D00BCA4C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE8C25E71F28719E00BCA4C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE8C25F21F28719E00BCA4C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE8C25C81F28719D00BCA4C9 = {
+			isa = PBXGroup;
+			children = (
+				DE8C25D31F28719D00BCA4C9 /* YQEditPhotoContainerView */,
+				DE8C25ED1F28719E00BCA4C9 /* YQEditPhotoContainerViewTests */,
+				DE8C25F81F28719E00BCA4C9 /* YQEditPhotoContainerViewUITests */,
+				DE8C25D21F28719D00BCA4C9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DE8C25D21F28719D00BCA4C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE8C25D11F28719D00BCA4C9 /* YQEditPhotoContainerView.app */,
+				DE8C25EA1F28719E00BCA4C9 /* YQEditPhotoContainerViewTests.xctest */,
+				DE8C25F51F28719E00BCA4C9 /* YQEditPhotoContainerViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE8C25D31F28719D00BCA4C9 /* YQEditPhotoContainerView */ = {
+			isa = PBXGroup;
+			children = (
+				DE8C261B1F28725500BCA4C9 /* YQEditPhotoContainerView */,
+				DE8C263F1F2874DF00BCA4C9 /* YQPhotoPickerManager */,
+				DE8C25D71F28719E00BCA4C9 /* AppDelegate.h */,
+				DE8C25D81F28719E00BCA4C9 /* AppDelegate.m */,
+				DE8C26301F28729D00BCA4C9 /* TableViewController.h */,
+				DE8C26311F28729D00BCA4C9 /* TableViewController.m */,
+				DE8C26331F28742C00BCA4C9 /* NORMAL.h */,
+				DE8C26341F28742C00BCA4C9 /* NORMAL.m */,
+				DE8C26391F28747500BCA4C9 /* YES_3_9.h */,
+				DE8C263A1F28747500BCA4C9 /* YES_3_9.m */,
+				DE8C263C1F28748700BCA4C9 /* NO_5_10.h */,
+				DE8C263D1F28748700BCA4C9 /* NO_5_10.m */,
+				DE8C25E01F28719E00BCA4C9 /* Assets.xcassets */,
+				DE8C25E21F28719E00BCA4C9 /* LaunchScreen.storyboard */,
+				DE8C25E51F28719E00BCA4C9 /* Info.plist */,
+				DE8C25D41F28719E00BCA4C9 /* Supporting Files */,
+			);
+			path = YQEditPhotoContainerView;
+			sourceTree = "<group>";
+		};
+		DE8C25D41F28719E00BCA4C9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DE8C25D51F28719E00BCA4C9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DE8C25ED1F28719E00BCA4C9 /* YQEditPhotoContainerViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				DE8C25EE1F28719E00BCA4C9 /* YQEditPhotoContainerViewTests.m */,
+				DE8C25F01F28719E00BCA4C9 /* Info.plist */,
+			);
+			path = YQEditPhotoContainerViewTests;
+			sourceTree = "<group>";
+		};
+		DE8C25F81F28719E00BCA4C9 /* YQEditPhotoContainerViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DE8C25F91F28719E00BCA4C9 /* YQEditPhotoContainerViewUITests.m */,
+				DE8C25FB1F28719E00BCA4C9 /* Info.plist */,
+			);
+			path = YQEditPhotoContainerViewUITests;
+			sourceTree = "<group>";
+		};
+		DE8C261B1F28725500BCA4C9 /* YQEditPhotoContainerView */ = {
+			isa = PBXGroup;
+			children = (
+				DE8C26251F28725500BCA4C9 /* YQEditPhotoContainerView.h */,
+				DE8C26261F28725500BCA4C9 /* YQEditPhotoContainerView.m */,
+			);
+			path = YQEditPhotoContainerView;
+			sourceTree = "<group>";
+		};
+		DE8C263F1F2874DF00BCA4C9 /* YQPhotoPickerManager */ = {
+			isa = PBXGroup;
+			children = (
+				DE8C26401F2874DF00BCA4C9 /* YQPhotoPickerManager.h */,
+				DE8C26411F2874DF00BCA4C9 /* YQPhotoPickerManager.m */,
+			);
+			path = YQPhotoPickerManager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE8C25D01F28719D00BCA4C9 /* YQEditPhotoContainerView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE8C25FE1F28719E00BCA4C9 /* Build configuration list for PBXNativeTarget "YQEditPhotoContainerView" */;
+			buildPhases = (
+				DE8C25CD1F28719D00BCA4C9 /* Sources */,
+				DE8C25CE1F28719D00BCA4C9 /* Frameworks */,
+				DE8C25CF1F28719D00BCA4C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YQEditPhotoContainerView;
+			productName = YQEditPhotoContainerView;
+			productReference = DE8C25D11F28719D00BCA4C9 /* YQEditPhotoContainerView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DE8C25E91F28719E00BCA4C9 /* YQEditPhotoContainerViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE8C26011F28719E00BCA4C9 /* Build configuration list for PBXNativeTarget "YQEditPhotoContainerViewTests" */;
+			buildPhases = (
+				DE8C25E61F28719E00BCA4C9 /* Sources */,
+				DE8C25E71F28719E00BCA4C9 /* Frameworks */,
+				DE8C25E81F28719E00BCA4C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE8C25EC1F28719E00BCA4C9 /* PBXTargetDependency */,
+			);
+			name = YQEditPhotoContainerViewTests;
+			productName = YQEditPhotoContainerViewTests;
+			productReference = DE8C25EA1F28719E00BCA4C9 /* YQEditPhotoContainerViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DE8C25F41F28719E00BCA4C9 /* YQEditPhotoContainerViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE8C26041F28719E00BCA4C9 /* Build configuration list for PBXNativeTarget "YQEditPhotoContainerViewUITests" */;
+			buildPhases = (
+				DE8C25F11F28719E00BCA4C9 /* Sources */,
+				DE8C25F21F28719E00BCA4C9 /* Frameworks */,
+				DE8C25F31F28719E00BCA4C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE8C25F71F28719E00BCA4C9 /* PBXTargetDependency */,
+			);
+			name = YQEditPhotoContainerViewUITests;
+			productName = YQEditPhotoContainerViewUITests;
+			productReference = DE8C25F51F28719E00BCA4C9 /* YQEditPhotoContainerViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE8C25C91F28719D00BCA4C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "俞琦";
+				TargetAttributes = {
+					DE8C25D01F28719D00BCA4C9 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = E7HPM4L27W;
+						ProvisioningStyle = Automatic;
+					};
+					DE8C25E91F28719E00BCA4C9 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = E7HPM4L27W;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DE8C25D01F28719D00BCA4C9;
+					};
+					DE8C25F41F28719E00BCA4C9 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = E7HPM4L27W;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DE8C25D01F28719D00BCA4C9;
+					};
+				};
+			};
+			buildConfigurationList = DE8C25CC1F28719D00BCA4C9 /* Build configuration list for PBXProject "YQEditPhotoContainerView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DE8C25C81F28719D00BCA4C9;
+			productRefGroup = DE8C25D21F28719D00BCA4C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE8C25D01F28719D00BCA4C9 /* YQEditPhotoContainerView */,
+				DE8C25E91F28719E00BCA4C9 /* YQEditPhotoContainerViewTests */,
+				DE8C25F41F28719E00BCA4C9 /* YQEditPhotoContainerViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE8C25CF1F28719D00BCA4C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE8C25E41F28719E00BCA4C9 /* LaunchScreen.storyboard in Resources */,
+				DE8C25E11F28719E00BCA4C9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE8C25E81F28719E00BCA4C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE8C25F31F28719E00BCA4C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE8C25CD1F28719D00BCA4C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE8C263E1F28748700BCA4C9 /* NO_5_10.m in Sources */,
+				DE8C262F1F28725500BCA4C9 /* YQEditPhotoContainerView.m in Sources */,
+				DE8C25D91F28719E00BCA4C9 /* AppDelegate.m in Sources */,
+				DE8C25D61F28719E00BCA4C9 /* main.m in Sources */,
+				DE8C26321F28729D00BCA4C9 /* TableViewController.m in Sources */,
+				DE8C26351F28742C00BCA4C9 /* NORMAL.m in Sources */,
+				DE8C26421F2874DF00BCA4C9 /* YQPhotoPickerManager.m in Sources */,
+				DE8C263B1F28747500BCA4C9 /* YES_3_9.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE8C25E61F28719E00BCA4C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE8C25EF1F28719E00BCA4C9 /* YQEditPhotoContainerViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE8C25F11F28719E00BCA4C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE8C25FA1F28719E00BCA4C9 /* YQEditPhotoContainerViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DE8C25EC1F28719E00BCA4C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE8C25D01F28719D00BCA4C9 /* YQEditPhotoContainerView */;
+			targetProxy = DE8C25EB1F28719E00BCA4C9 /* PBXContainerItemProxy */;
+		};
+		DE8C25F71F28719E00BCA4C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE8C25D01F28719D00BCA4C9 /* YQEditPhotoContainerView */;
+			targetProxy = DE8C25F61F28719E00BCA4C9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DE8C25E21F28719E00BCA4C9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE8C25E31F28719E00BCA4C9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DE8C25FC1F28719E00BCA4C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DE8C25FD1F28719E00BCA4C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE8C25FF1F28719E00BCA4C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = E7HPM4L27W;
+				INFOPLIST_FILE = YQEditPhotoContainerView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.YuQi.YQEditPhotoContainerView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DE8C26001F28719E00BCA4C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = E7HPM4L27W;
+				INFOPLIST_FILE = YQEditPhotoContainerView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.YuQi.YQEditPhotoContainerView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DE8C26021F28719E00BCA4C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = E7HPM4L27W;
+				INFOPLIST_FILE = YQEditPhotoContainerViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.YuQi.YQEditPhotoContainerViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YQEditPhotoContainerView.app/YQEditPhotoContainerView";
+			};
+			name = Debug;
+		};
+		DE8C26031F28719E00BCA4C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = E7HPM4L27W;
+				INFOPLIST_FILE = YQEditPhotoContainerViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.YuQi.YQEditPhotoContainerViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YQEditPhotoContainerView.app/YQEditPhotoContainerView";
+			};
+			name = Release;
+		};
+		DE8C26051F28719E00BCA4C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = E7HPM4L27W;
+				INFOPLIST_FILE = YQEditPhotoContainerViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.YuQi.YQEditPhotoContainerViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YQEditPhotoContainerView;
+			};
+			name = Debug;
+		};
+		DE8C26061F28719E00BCA4C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = E7HPM4L27W;
+				INFOPLIST_FILE = YQEditPhotoContainerViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.YuQi.YQEditPhotoContainerViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YQEditPhotoContainerView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE8C25CC1F28719D00BCA4C9 /* Build configuration list for PBXProject "YQEditPhotoContainerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE8C25FC1F28719E00BCA4C9 /* Debug */,
+				DE8C25FD1F28719E00BCA4C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE8C25FE1F28719E00BCA4C9 /* Build configuration list for PBXNativeTarget "YQEditPhotoContainerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE8C25FF1F28719E00BCA4C9 /* Debug */,
+				DE8C26001F28719E00BCA4C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DE8C26011F28719E00BCA4C9 /* Build configuration list for PBXNativeTarget "YQEditPhotoContainerViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE8C26021F28719E00BCA4C9 /* Debug */,
+				DE8C26031F28719E00BCA4C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DE8C26041F28719E00BCA4C9 /* Build configuration list for PBXNativeTarget "YQEditPhotoContainerViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE8C26051F28719E00BCA4C9 /* Debug */,
+				DE8C26061F28719E00BCA4C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE8C25C91F28719D00BCA4C9 /* Project object */;
+}
